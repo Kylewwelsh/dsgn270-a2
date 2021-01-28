@@ -1,0 +1,29 @@
+.main-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.images-section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+
+}
+
+img {
+  position: fixed;
+  justify-content: center;
+  object-fit: scale-down;
+  width: 400px;
+  height: 400px;
+  background-color: black;
+
+}
+
+.img30 {
+
+}
+
+
