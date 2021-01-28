@@ -2,7 +2,7 @@ body {
   background-color: blanchedalmond;
 }
 
-.main-title, p, h2 {
+.main-title {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 3rem;
   padding: 2rem;
@@ -12,18 +12,34 @@ body {
 .images-section {
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: space-around;
+  padding-bottom: 50px;
 }
 
 img {
-  position: fixed;
+  position: absolute;
   justify-content: center;
   object-fit:contain;
-  width: 500px;
-  height: 500px;
+  width: 300px;
+  height: 300px;
   opacity: 0;
+  padding: 1rem;
   background-color: blanchedalmond;
 }
+
+.info {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  margin-top: 20rem;
+}
+
+h2 {
+  padding: 0;
+  text-align: center;
+}
+
+
 
 @keyframes img22 {
   from {
